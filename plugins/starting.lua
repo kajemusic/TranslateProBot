@@ -1,4 +1,4 @@
-﻿local triggers = {
+local triggers = {
 		'^/(start)$',
 		'^/(contact) (.+)$',
 		'^/(pm) (%d+)', 
@@ -31,20 +31,34 @@ local text = '`Ver Bot` *1.5*\n *Thanks* [BeyondTeam](https://telegram.me/Beyond
     keyboard.inline_keyboard = {
 	   {
 			{text = "Editor Bot", url = "https://telegram.me/L_U_A"},
-			{text = "Channel Team", url = "https://telegram.me/MuteHack"},
+			{text = "Channel News Bot", url = "https://telegram.me/NewsTranslateProBot"},
 	   },
 	   {
 	        {text = "Beyond Team", url = "https://telegram.me/BeyondTeam"},
+			{text = "soucre Robot", url = "https://Github.com/MrAmirAlone/TranslateProBot"},
 	   }
 	 }
 	api.sendKeyboard(msg.chat.id, text, keyboard, true)
    end
 if matches[1] == 'help' then
-text = ([[`Hi, am grateful of your choice
+text = ([[*Help English*
+`Hi, am grateful of your choice
 Please check the desired language for menu, choose
 Please text for translation submit
 Please check your language for translation select.
-Please recipes /about to get on I can send.`]])
+Please recipes /about to get on I can send.`
+*راهنمای فارسی*
+`سلام ممنون هستم از انتخاب شما
+لطفا زبان مورد نظر برای منو, را انتخاب کنید
+لطفا متن را برای ترجمه ارسال کنید
+لطفا زبان خود را برای ترجمه انتخاب کنید.
+لطفا دستور /about می توانید ارسال کنید`
+*دليل اللغة العربية*
+`مرحبا ممتن من اختيارك
+يرجى التحقق من المطلوب لغة القائمة ، اختر
+يرجى النص للترجمة يقدم
+يرجى مراجعة لغة الترجمة حدد.
+يرجى وصفات /about وشك أستطيع أن أرسل.`]])
 api.sendMessage(msg.chat.id, text, true)
 end
 	if msg.cb then
