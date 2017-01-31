@@ -11,7 +11,7 @@ Bot for translte you text.
 <h1>چنل ما</h1>
 <a href="telegram.me/beyondteam"><h3>beyond</h3></a>
 <h1>ادیتور</h1>
-<a href="telegram.me/MRAmirAlone"><h3>CleverGuy</h3></a>
+<a href="telegram.me/MRAmirAlone"><h3>MR.AmirAlone</h3></a>
 
 
 
