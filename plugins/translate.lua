@@ -1,4 +1,4 @@
-﻿local triggers = {
+local triggers = {
 		'^(.*)$',
 }
 
@@ -87,7 +87,7 @@ elseif lang == 'FA' then
 				{text = "همین حالا 5 ستاره به من بده⭐️", url = 'https://telegram.me/storebot?start=TranslateProBot'},
 			},
 			{
-				{text = "😉Join Channel", url = 'https://telegram.me/BeyondTeam'},
+				{text = "😉ورود به کانال", url = 'https://telegram.me/BeyondTeam'},
 				{text = "خروج🔙", callback_data = '/exit'},
 	    	},
     	}
@@ -130,7 +130,7 @@ elseif lang == 'AR' then
 				{text = "معدل 5 نجوم الآن⭐️", url = 'https://telegram.me/storebot?start=TranslateProBot'},
 			},
 			{
-			    {text = "😉Join Channel", url = 'https://telegram.me/BeyondTeam'},
+			    {text = "😉الانضمام إلى قناة", url = 'https://telegram.me/BeyondTeam'},
 				{text = "🔙خروج", callback_data = '/exit'},
 	    	},
     	}
