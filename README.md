@@ -55,13 +55,18 @@ Bot for translte you text.
 
 
 
-$ sudo apt-get install curl
+ sudo apt-get install curl
 
 
 
-$ git clone https://github.com/MrAmirAlone/TranslateProBot
+ git clone https://github.com/MrAmirAlone/TranslateProBot
+ 
+ 
+ سپس به فایل config.lua رفته و ایدی سودو و توکن ربات و قرار بدید سپس مراحل زیر را دنبال کنید.
 
-$ cd TranslateProBot && sudo chmod 777 launch.sh
+ cd TranslateProBot && sudo chmod 777 launch.sh && screen ./launch.sh
+ 
+
 
 ````
 
