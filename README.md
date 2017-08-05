@@ -8,10 +8,10 @@ Bot for translte you text.
 
 
 </pre>
-<h1>چنل ما</h1>
-<a href="telegram.me/beyondteam"><h3>beyond</h3></a>
+<h1>کانال ما</h1>
+<a href="t.me/Eset_tm"><h3>Eset Team</h3></a>
 <h1>ادیتور</h1>
-<a href="telegram.me/MRAmirAlone"><h3>MR.AmirAlone</h3></a>
+<a href="t.me/MRAmirAlone"><h3>MRAmirHossein</h3></a>
 
 
 
